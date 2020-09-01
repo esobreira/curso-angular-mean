@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+.h1 {
+    color: #e369;
+    font-family: Arial, Helvetica, sans-serif;   
+    font-size : 250%;
+}
+
+.margem {
+    margin-top : 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+
+.selecionado {
+    background-color: red;
+}

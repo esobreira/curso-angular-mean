@@ -1,0 +1,25 @@
+<div class="container margem">
+    <h1>CADASTRO</h1>
+    <h3>Código: {{curso.codigo}}</h3>
+    <h3>Descrição: {{curso.descricao}}</h3>
+    <h3>Carga: {{curso.ch}}</h3>
+</div>
+<div class="col-md-12">
+    <div class="form-group">
+        <label for="codigo">Código:</label>
+        <input type="text" class="form-control" [(ngModel)]="curso.codigo" id="codigo" name="codigo">
+    </div>
+    <div class="form-group">
+        <label for="descricao">Descrição:</label>
+        <input type="text" class="form-control" [(ngModel)]="curso.descricao" id="descricao" name="descricao">
+    </div>
+    <div class="form-group">
+        <label for="ch">Carga Horária:</label>
+        <input type="text" class="form-control" [(ngModel)]="curso.ch" id="ch" name="ch">
+    </div>
+    <div class="form-group">
+        <button type="submit" class="btn btn-info">
+            <span class="glypicon glyphicon-pencil">Incluir</span>
+        </button>
+    </div>
+</div>
