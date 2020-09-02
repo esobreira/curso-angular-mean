@@ -12,6 +12,8 @@ import { ErroComponent } from './erro/erro.component';
 import { ListaComponent } from './lista/lista.component';
 import { CursosService } from './services/cursos.services';
 import { MasterdetailComponent } from './masterdetail/masterdetail.component';
+import { VerificarchComponent } from './verificarch/verificarch.pipe';
+import { SublistaComponent } from './sublista/sublista.pipe';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { MasterdetailComponent } from './masterdetail/masterdetail.component';
     CadastroComponent,
     ErroComponent,
     ListaComponent,
-    MasterdetailComponent
+    MasterdetailComponent,
+    VerificarchComponent,
+    SublistaComponent
   ],
   imports: [
     BrowserModule,

@@ -18,6 +18,9 @@
         <input type="text" class="form-control" [(ngModel)]="curso.ch" id="ch" name="ch">
     </div>
     <div class="form-group">
+        <label for="ch">Nível da carga horária: {{ curso.ch | verificaCh }}</label>
+    </div>
+    <div class="form-group">
         <button type="submit" class="btn btn-info">
             <span class="glypicon glyphicon-pencil">Incluir</span>
         </button>
